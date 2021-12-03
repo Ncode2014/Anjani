@@ -1,5 +1,5 @@
-# Set base image (host OS)
-FROM python:3.9.13-slim-bullseye
+# set base image (host OS)
+FROM nekru/base:bull
 
 # Set the working directory in the container
 WORKDIR /anjani/
